@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "dev.codegym.level8.lesson11.task18.Solution",
+            "projectName": "javasandbox",
+            "args": "C:\\Users\\jhoal\\Documents\\javasandbox\\src\\main\\java\\dev\\codegym\\level8\\lesson11\\task18\\texto.txt",
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "dev.jamt.Main",
+            "projectName": "javasandbox"
+        }
+    ]
+}
