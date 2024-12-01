@@ -1,4 +1,4 @@
-package dev.codegym.level8.lesson11.taks19;
+package dev.codegym.level8.lesson11.task19;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -33,8 +33,8 @@ public class Solution {
      */
     public static String calculateRatioOfSpacesToCharactersInPercentageInAFile(String pathFile) {
         float numberOfSpaces = calculateNumberOfElementInTheDocument("spaces", pathFile);
-        float numberOfCharaters = calculateNumberOfElementInTheDocument("characters", pathFile);
-        float result = (numberOfSpaces/numberOfCharaters) * 100;
+        float numberOfCharacters = calculateNumberOfElementInTheDocument("characters", pathFile);
+        float result = (numberOfSpaces/numberOfCharacters) * 100;
         return String.format("%.02f", result);
     }
 

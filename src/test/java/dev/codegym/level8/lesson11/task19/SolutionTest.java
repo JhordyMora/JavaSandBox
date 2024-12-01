@@ -7,9 +7,7 @@ import java.nio.file.Paths;
 
 import org.junit.jupiter.api.Test;
 
-import dev.codegym.level8.lesson11.taks19.Solution;
-
-public class SolutionTest {
+class SolutionTest {
     @Test
     void shouldReturn20PercentFromTexto1(){
         String filePathRelative =  "src\\test\\java\\dev\\codegym\\level8\\lesson11\\task19\\texto1.txt";
@@ -21,5 +19,4 @@ public class SolutionTest {
         assertEquals("20,34", result);
     }
 
-    //TODO create more scenarios when files are empty for instances
 }

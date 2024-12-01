@@ -1,6 +1,5 @@
 package dev.codegym.level8.lesson11.task18;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Arrays;
@@ -16,10 +15,10 @@ public class Solution {
 
     public static void main(String[] args) throws IOException {
         final String fileURL = args[0];
-        int numberOfLetters = getCountOfEnglishChars(fileURL);
+        getCountOfEnglishChars(fileURL);
     }
 
-    public static int getCountOfEnglishChars(String fileURL) throws IOException, FileNotFoundException {
+    public static int getCountOfEnglishChars(String fileURL) throws IOException {
         int countOfEnglishChars = 0;
         try (FileReader fileReader = new FileReader(fileURL)) {
             while (fileReader.ready()) {
